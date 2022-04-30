@@ -1,3 +1,4 @@
 re
 node_modules
 client
+.env
