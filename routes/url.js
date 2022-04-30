@@ -4,7 +4,7 @@ const router = express.Router();
 const shortid = require("shortid");
 const Url = require("../models/URLSchema");
 
-const baseUrl = "http:localhost:5000";
+const baseUrl = "https://venerable-daifuku-682c5c.netlify.app";
 
 router.post("/shorten", async (req, res) => {
   const { longUrl } = req.body;
